@@ -21,7 +21,7 @@ with open('resume.json') as resumeJson:
 # Create Page and supply format
 resume = FPDF('P', 'mm', 'Letter')
 resume.add_page()
-resume.set_margin(12.5)
+resume.set_margin(13)
 
 # Header
 resume.image('2x2.jpg', 150, 10, 50)
@@ -29,11 +29,14 @@ resume.set_font('Times', 'UB', 30)
 resume.cell(130, 10, "Wanjin P. Maglangit", ln = True)
 resume.set_font('Times', 'I', 20)
 resume.cell(100, 10, "Full Stack Developer", ln = True)
-resume.ln(2)
+resume.ln(5)
 
 # Personal info
 resume.set_font('Times', 'B', 18)
-resume.cell(0,7 , "Personal Information", ln = True)
+resume.set_draw_color(000,000,000)
+resume.set_fill_color(221,221,221)
+resume.cell(130,8, "Personal Information", fill = True, border = True, ln = True, align = 'C')
+resume.ln(2)
 resume.set_font('Helvetica', '', 12)
 resume.cell(50,7, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
 resume.cell(50,7, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
@@ -45,14 +48,19 @@ resume.ln(2)
 
 # Summary
 resume.set_font('Times', 'B', 18)
-resume.cell(0,7 , "Professional Summary", ln = True)
+resume.set_draw_color(000,000,000)
+resume.set_fill_color(221,221,221)
+resume.cell(0,7 , "Professional Summary", fill = True, border = True, ln = True, align = 'C')
+
 resume.set_font('Helvetica', '', 12)
 resume.cell(50,7, str(data["Professional Summary"]), ln = True) 
 resume.ln(2)
 
 # Experience
 resume.set_font('Times', 'B', 18)
-resume.cell(0,7 , "Work Experience", ln = True)
+resume.set_draw_color(000,000,000)
+resume.set_fill_color(221,221,221)
+resume.cell(0,7 , "Work Experience", fill = True, border = True, ln = True, align = 'C')
 resume.set_font('Helvetica', '', 12)
 resume.cell(50,7, 'Former Work: ' + str(data["Work Experience"]["Former Work"]), ln = True) 
 resume.cell(50,7, 'Company: ' + str(data["Work Experience"]["Company"]), ln = True)
@@ -61,7 +69,9 @@ resume.ln(2)
 
 # Education
 resume.set_font('Times', 'B', 18)
-resume.cell(0,7 , "Educational Background", ln = True)
+resume.set_draw_color(000,000,000)
+resume.set_fill_color(221,221,221)
+resume.cell(0,7 , "Educational Background", fill = True, border = True, ln = True, align = 'C')
 resume.set_font('Helvetica', '', 12)
 resume.cell(50,7, 'Course: ' + str(data["Educational Background"][0]["Course"]), ln = True) 
 resume.cell(50,7, 'University: ' + str(data["Educational Background"][0]["University"]), ln = True)
@@ -71,7 +81,9 @@ resume.ln(2)
 
 # Projects
 resume.set_font('Times', 'B', 18)
-resume.cell(0,7 , "Projects", ln = True)
+resume.set_draw_color(000,000,000)
+resume.set_fill_color(221,221,221)
+resume.cell(0,7 , "Projects", fill = True, border = True, ln = True, align = 'C')
 resume.set_font('Helvetica', '', 12)
 resume.cell(50,7, 'Project Name: ' + str(data["Projects"]["Project Name"]), ln = True) 
 resume.cell(50,7, 'Position: ' + str(data["Projects"]["Position"]), ln = True)
@@ -80,7 +92,9 @@ resume.ln(2)
 
 # Skills
 resume.set_font('Times', 'B', 18)
-resume.cell(0,7 , "Skills", ln = True)
+resume.set_draw_color(000,000,000)
+resume.set_fill_color(221,221,221)
+resume.cell(0,7 , "Skills", fill = True, border = True, ln = True, align = 'C')
 resume.set_font('Helvetica', '', 12)
 resume.cell(50,7, str(data["Skills"][0]), ln = False) 
 resume.cell(50,7, str(data["Skills"][1]), ln = True)
