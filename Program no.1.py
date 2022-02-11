@@ -16,7 +16,11 @@ from fpdf import FPDF
 # 	- Your code should be in github before Feb12
 
 # Create Page and supply format
-
+resume = FPDF('P', 'cm', 'Letter')
+resume.add_page()
+resume.set_margin(1.27)
+# Header
+header.
 # Personal info
 
 # Summary
@@ -28,3 +32,5 @@ from fpdf import FPDF
 # Projects
 
 # Skills
+
+resume.output('MAGLANGIT,Wanjin P..pdf')
