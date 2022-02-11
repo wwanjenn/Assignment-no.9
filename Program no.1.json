@@ -17,11 +17,15 @@
             "Work Description" : "Develop user-side applications, including visual elements like menu bars, clickable buttons and the overall layout of websites or web applications."
         },
     
-    ""
-// Education
-    // Course
-    // University
-
+    "Education" :   [
+        {   "Course" : "Bachelor of Science in Computer Engineering",
+            "University" : "Polytechnic University of the Philippines"
+        },
+        {   "Course" : "Masters in Computer Science",
+            "University" : "Massachusetts Institute of Technology"
+        }
+    ],
+    
 // Projects
     // Project
     // Position
