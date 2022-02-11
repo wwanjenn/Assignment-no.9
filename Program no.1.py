@@ -17,11 +17,11 @@ from fpdf import FPDF
 
 # Connect json file into .py program
 with open('resume.json') as resumeJson:
-    data = json.load(resumeJson.read())
+    data = json.loads(resumeJson.read())
 # Create Page and supply format
 resume = FPDF('P', 'mm', 'Letter')
 resume.add_page()
-resume.set_margin(12)
+resume.set_margin(12.5)
 # Header
 resume.set_font('Times', 'UB', 30)
 resume.cell(130, 10, "Wanjin P. Maglangit", ln = True)
@@ -29,9 +29,15 @@ resume.set_font('Times', 'I', 20)
 resume.cell(100, 10, "Full Stack Developer", ln = True)
 
 # Personal info
-resume.set_font('Times', 'UB', 18)
+resume.set_font('Times', 'B', 18)
 resume.cell(0,10 , "Personal Information", ln = True)
-resume.set_font('He;vetica', '', 12)
+resume.set_font('Helvetica', '', 12)
+resume.cell(50,10, 'Sex: ')
+resume.cell(50,10, 'Age: ')
+resume.cell(50,10, 'Address: ')
+resume.cell(50,10, 'Contact#: ')
+resume.cell(50,10, 'Email Address: ')
+resume.cell(50,10, 'Github: ')
 # Summary
 
 # Experience
