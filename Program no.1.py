@@ -51,9 +51,10 @@ resume.set_font('Times', 'B', 18)
 resume.set_draw_color(000,000,000)
 resume.set_fill_color(221,221,221)
 resume.cell(0,7 , "Professional Summary", fill = True, border = True, ln = True, align = 'C')
-
+resume.ln(2)
 resume.set_font('Helvetica', '', 12)
-resume.cell(50,7, str(data["Professional Summary"]), ln = True) 
+resume.cell(50,7, str(data["Professional Summary"][0]), ln = True)
+resume.cell(50,7, str(data["Professional Summary"][1]), ln = True) 
 resume.ln(2)
 
 # Experience
@@ -61,10 +62,12 @@ resume.set_font('Times', 'B', 18)
 resume.set_draw_color(000,000,000)
 resume.set_fill_color(221,221,221)
 resume.cell(0,7 , "Work Experience", fill = True, border = True, ln = True, align = 'C')
+resume.ln(2)
 resume.set_font('Helvetica', '', 12)
 resume.cell(50,7, 'Former Work: ' + str(data["Work Experience"]["Former Work"]), ln = True) 
 resume.cell(50,7, 'Company: ' + str(data["Work Experience"]["Company"]), ln = True)
-resume.cell(50,7, 'Work Description: ' + str(data["Work Experience"]["Work Description"]), ln = True)
+resume.cell(50,7, 'Work Description: ' + str(data["Work Experience"]["Work Description"][0]), ln = True)
+resume.cell(50,7,  str(data["Work Experience"]["Work Description"][1]), ln = True)
 resume.ln(2)
 
 # Education
@@ -88,6 +91,7 @@ resume.set_font('Helvetica', '', 12)
 resume.cell(50,7, 'Project Name: ' + str(data["Projects"]["Project Name"]), ln = True) 
 resume.cell(50,7, 'Position: ' + str(data["Projects"]["Position"]), ln = True)
 resume.cell(50,7, 'Project Description: ' + str(data["Projects"]["Project Description"]), ln = True)
+
 resume.ln(2)
 
 # Skills
