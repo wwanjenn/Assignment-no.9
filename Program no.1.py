@@ -93,7 +93,6 @@ resume.set_font('Helvetica', '', 12)
 resume.cell(50,7, 'Project Name        : ' + str(data["Projects"]["Project Name"]), ln = True) 
 resume.cell(50,7, 'Position                 : ' + str(data["Projects"]["Position"]), ln = True)
 resume.cell(50,7, 'Project Description: ' + str(data["Projects"]["Project Description"]), ln = True)
-
 resume.ln(2)
 
 # Skills
