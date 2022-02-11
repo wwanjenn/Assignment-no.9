@@ -1,24 +1,24 @@
 {
-    "Personal Info" : [
-        {   "Sex"  : "Heterosexual Male",
-            "Age"  : "24 years old",
-            "Address" : "964 York St., Fresh Meadows, NY 11365",
-            "Contact Number" : "+1 218-384-1430",
-            "Email Address" : "wmaglangit@gmail.com",
-            "Github Account" : "https://github.com/Lemonade-up"
+    "Personal Info": [
+        {   "Sex": "Heterosexual Male",
+            "Age": "24 years old",
+            "Address": "964 York St., Fresh Meadows, NY 11365",
+            "Contact Number": "+1 218-384-1430",
+            "Email Address": "wmaglangit@gmail.com",
+            "Github Account": "https://github.com/Lemonade-up"
         }
     ],
-    "Professional Summary" : "A Software Developer with more than 3 years of experience in Front-End development with extensive knowledge in Machine Learning and Blockchain Technology",
+    "Professional Summary": "A Software Developer with more than 3 years of experience in Front-End development with extensive knowledge in Machine Learning and Blockchain Technology",
     
-    "Work Experience" :
-        {   "Former Work" : "Junior Full Stack Developer (2020 - Present)",
-            "Company"     : "Balanced Technologies",
-            "Work Description" : "Front End and Back End Developer that designs User Interaction and creates Servers and Databases for the software."
+    "Work Experience":
+        {   "Former Work": "Junior Full Stack Developer (2020 - Present)",
+            "Company": "Balanced Technologies",
+            "Work Description": "Front End and Back End Developer that designs User Interaction and creates Servers and Databases for the software."
         },
     
-    "Educational Background" :   [
-        {   "Course" : "Bachelor of Science in Computer Engineering",
-            "University" : "Polytechnic University of the Philippines"
+    "Educational Background":   [
+        {   "Course": "Bachelor of Science in Computer Engineering",
+            "University": "Polytechnic University of the Philippines"
         },
         {   "Course" : "Masters in Computer Science",
             "University" : "Massachusetts Institute of Technology"

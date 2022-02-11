@@ -10,7 +10,7 @@ from fpdf import FPDF
 
 # Note:
 # 	- Search for available PDF library that you can use
-# 	- Search how data is structured using JSON format
+# 	- Search how data is++ structured using JSON format
 # 	- Search how to read JSON file
 # 	- You will create the JSON file manually
 # 	- Your code should be in github before Feb12
@@ -32,12 +32,12 @@ resume.cell(100, 10, "Full Stack Developer", ln = True)
 resume.set_font('Times', 'B', 18)
 resume.cell(0,10 , "Personal Information", ln = True)
 resume.set_font('Helvetica', '', 12)
-resume.cell(50,10, 'Sex: ')
-resume.cell(50,10, 'Age: ')
-resume.cell(50,10, 'Address: ')
-resume.cell(50,10, 'Contact#: ')
-resume.cell(50,10, 'Email Address: ')
-resume.cell(50,10, 'Github: ')
+resume.cell(50,10, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
+resume.cell(50,10, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
+resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = True)
+resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
+resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
+resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
 # Summary
 
 # Experience
