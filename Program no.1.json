@@ -1,5 +1,14 @@
 {
-// Personal Info
+    "Personal Info" : [
+        {   "Name" : "Wanjin P. Maglangit",
+            "Sex"  : "Heterosexual Male",
+            "Age"  : "19 years old",
+            "Address" : "964 York St., Fresh Meadows, NY 11365",
+            "Contact Number" : "+1 218-384-1430",
+            "Email Address" : "wmaglangit@gmail.com",
+            "Github Account" : "https://github.com/Lemonade-up"
+        }
+    ]
     // Name
     // Sex
     // Age
