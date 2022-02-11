@@ -23,7 +23,8 @@ resume = FPDF('P', 'cm', 'Letter')
 resume.add_page()
 resume.set_margin(1.27)
 # Header
-
+def headerInfo(header):
+    header.cell(130, 1, "Wanjin P. Maglangit")
 # Personal info
 
 # Summary
