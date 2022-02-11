@@ -9,15 +9,15 @@
             "Github Account" : "https://github.com/Lemonade-up"
         }
     ],
-    "Summary" : "A Software Developer with more than 3 years of experience in Front-End development with extensive knowledge in Machine Learning and Blockchain Technology",
+    "Professional Summary" : "A Software Developer with more than 3 years of experience in Front-End development with extensive knowledge in Machine Learning and Blockchain Technology",
     
-    "Experience" :
-        {   "Former Work" : "Junior Front-End Developer",
+    "Work Experience" :
+        {   "Former Work" : "Junior Full Stack Developer (2020 - Present)",
             "Company"     : "Balanced Technologies",
-            "Work Description" : "Develop user-side applications, including visual elements like menu bars, clickable buttons and the overall layout of websites or web applications."
+            "Work Description" : "Front End and Back End Developer that designs User Interaction and creates Servers and Databases for the software."
         },
     
-    "Education" :   [
+    "Educational Background" :   [
         {   "Course" : "Bachelor of Science in Computer Engineering",
             "University" : "Polytechnic University of the Philippines"
         },
@@ -25,11 +25,11 @@
             "University" : "Massachusetts Institute of Technology"
         }
     ],
-    
-// Projects
-    // Project
-    // Position
-    // Description
+    "Projects" :
+        {   "Project Name"  : "User Interface for Online Marketplace",
+            "Position" : "Full Stack Developer",
+            "Project Description" : "Online Marketplace for a medium-sized retailing company"
+        }
 
 // Skills
     // Array of skills
