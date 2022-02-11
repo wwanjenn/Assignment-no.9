@@ -15,12 +15,15 @@ from fpdf import FPDF
 # 	- You will create the JSON file manually
 # 	- Your code should be in github before Feb12
 
+# Connect json file into .py program
+with open('Resume.json') as resumeJson:
+    data = json.load(resumeJson.read())
 # Create Page and supply format
 resume = FPDF('P', 'cm', 'Letter')
 resume.add_page()
 resume.set_margin(1.27)
 # Header
-header.
+
 # Personal info
 
 # Summary
