@@ -38,14 +38,61 @@ resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = 
 resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
 resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
 resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
+
 # Summary
+resume.set_font('Times', 'B', 18)
+resume.cell(0,10 , "Professional Summary", ln = True)
+resume.set_font('Helvetica', '', 12)
+resume.cell(50,10, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
+resume.cell(50,10, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
+resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = True)
+resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
+resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
+resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
 
 # Experience
+resume.set_font('Times', 'B', 18)
+resume.cell(0,10 , "Personal Information", ln = True)
+resume.set_font('Helvetica', '', 12)
+resume.cell(50,10, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
+resume.cell(50,10, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
+resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = True)
+resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
+resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
+resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
 
 # Education
+resume.set_font('Times', 'B', 18)
+resume.cell(0,10 , "Personal Information", ln = True)
+resume.set_font('Helvetica', '', 12)
+resume.cell(50,10, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
+resume.cell(50,10, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
+resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = True)
+resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
+resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
+resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
 
 # Projects
+resume.set_font('Times', 'B', 18)
+resume.cell(0,10 , "Personal Information", ln = True)
+resume.set_font('Helvetica', '', 12)
+resume.cell(50,10, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
+resume.cell(50,10, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
+resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = True)
+resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
+resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
+resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
 
 # Skills
+resume.set_font('Times', 'B', 18)
+resume.cell(0,10 , "Personal Information", ln = True)
+resume.set_font('Helvetica', '', 12)
+resume.cell(50,10, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
+resume.cell(50,10, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
+resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = True)
+resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
+resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
+resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
 
+#Output
 resume.output('MAGLANGIT,Wanjin P..pdf')
