@@ -76,14 +76,14 @@ resume.cell(50,10, 'Project Description: ' + str(data["Projects"]["Project Descr
 
 # Skills
 resume.set_font('Times', 'B', 18)
-resume.cell(0,10 , "Personal Information", ln = True)
+resume.cell(0,10 , "Skills", ln = True)
 resume.set_font('Helvetica', '', 12)
-resume.cell(50,10, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
-resume.cell(50,10, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
-resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = True)
-resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
-resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
-resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
+resume.cell(50,10, str(data["Skills"][0]), ln = False) 
+resume.cell(50,10, str(data["Skills"][1]), ln = True)
+resume.cell(50,10, str(data["Skills"][2]), ln = False)
+resume.cell(50,10, str(data["Skills"][3]), ln = True)
+resume.cell(50,10, str(data["Skills"][4]), ln = False)
+resume.cell(50,10, str(data["Skills"][5]), ln = True)
 
 #Output
 resume.output('MAGLANGIT,Wanjin P..pdf')
