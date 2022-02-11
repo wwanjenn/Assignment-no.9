@@ -24,6 +24,7 @@ resume.add_page()
 resume.set_margin(12.5)
 
 # Header
+resume.image('2x2.jpg', 150, 10, 50)
 resume.set_font('Times', 'UB', 30)
 resume.cell(130, 10, "Wanjin P. Maglangit", ln = True)
 resume.set_font('Times', 'I', 20)
