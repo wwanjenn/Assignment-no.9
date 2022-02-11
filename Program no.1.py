@@ -57,25 +57,22 @@ resume.cell(50,10, 'Work Description: ' + str(data["Work Experience"]["Work Desc
 
 # Education
 resume.set_font('Times', 'B', 18)
-resume.cell(0,10 , "Personal Information", ln = True)
+resume.cell(0,10 , "Educational Background", ln = True)
 resume.set_font('Helvetica', '', 12)
-resume.cell(50,10, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
-resume.cell(50,10, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
-resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = True)
-resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
-resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
-resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
+resume.cell(50,10, 'Course: ' + str(data["Educational Background"][0]["Course"]), ln = True) 
+resume.cell(50,10, 'University: ' + str(data["Educational Background"][0]["University"]), ln = True)
+resume.cell(50,10, 'Course: ' + str(data["Educational Background"][1]["Course"]), ln = True)
+resume.cell(50,10, 'University: ' + str(data["Educational Background"][1]["University"]), ln = True)
+
 
 # Projects
 resume.set_font('Times', 'B', 18)
-resume.cell(0,10 , "Personal Information", ln = True)
+resume.cell(0,10 , "Projects", ln = True)
 resume.set_font('Helvetica', '', 12)
-resume.cell(50,10, 'Sex: ' + str(data["Personal Info"][0]["Sex"]), ln = True) 
-resume.cell(50,10, 'Age: ' + str(data["Personal Info"][0]["Age"]), ln = True)
-resume.cell(50,10, 'Address: ' + str(data["Personal Info"][0]["Address"]), ln = True)
-resume.cell(50,10, 'Contact#: ' + str(data["Personal Info"][0]["Contact Number"]), ln = True)
-resume.cell(50,10, 'Email Address: ' + str(data["Personal Info"][0]["Email Address"]), ln = True)
-resume.cell(50,10, 'Github: ' + str(data["Personal Info"][0]["Github Account"]), ln = True)
+resume.cell(50,10, 'Project Name: ' + str(data["Projects"]["Project Name"]), ln = True) 
+resume.cell(50,10, 'Position: ' + str(data["Projects"]["Position"]), ln = True)
+resume.cell(50,10, 'Project Description: ' + str(data["Projects"]["Project Description"]), ln = True)
+
 
 # Skills
 resume.set_font('Times', 'B', 18)
