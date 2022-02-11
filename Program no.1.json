@@ -29,9 +29,7 @@
         {   "Project Name"  : "User Interface for Online Marketplace",
             "Position" : "Full Stack Developer",
             "Project Description" : "Online Marketplace for a medium-sized retailing company"
-        }
-
-// Skills
-    // Array of skills
-
+        },
+    "Skills" :
+        ["CSS", "Python", "Oracle", "MySQL", "Java Script", "Web Architecture"]
 }
