@@ -1,5 +1,7 @@
 # Assignment 9
 import json
+from fpdf import FPDF
+
 # PDF Resume Creator
 # 	- Create a python program that will create your personal resume in PDF format
 # 	- All personal details are stored in a JSON file
@@ -12,3 +14,17 @@ import json
 # 	- Search how to read JSON file
 # 	- You will create the JSON file manually
 # 	- Your code should be in github before Feb12
+
+# Create Page and supply format
+
+# Personal info
+
+# Summary
+
+# Experience
+
+# Education
+
+# Projects
+
+# Skills
