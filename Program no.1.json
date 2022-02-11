@@ -2,26 +2,22 @@
     "Personal Info" : [
         {   "Name" : "Wanjin P. Maglangit",
             "Sex"  : "Heterosexual Male",
-            "Age"  : "19 years old",
+            "Age"  : "24 years old",
             "Address" : "964 York St., Fresh Meadows, NY 11365",
             "Contact Number" : "+1 218-384-1430",
             "Email Address" : "wmaglangit@gmail.com",
             "Github Account" : "https://github.com/Lemonade-up"
         }
-    ]
-    // Name
-    // Sex
-    // Age
-    // Address
-    // Contact no.
-    // Email Address
-    // Github Account
-
-// Summary
-
-// Experience
-    // Former Work
-
+    ],
+    "Summary" : "A Software Developer with more than 3 years of experience in Front-End development with extensive knowledge in Machine Learning and Blockchain Technology",
+    
+    "Experience" :
+        {   "Former Work" : "Junior Front-End Developer",
+            "Company"     : "Balanced Technologies",
+            "Work Description" : "Develop user-side applications, including visual elements like menu bars, clickable buttons and the overall layout of websites or web applications."
+        },
+    
+    ""
 // Education
     // Course
     // University
