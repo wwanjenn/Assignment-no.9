@@ -24,7 +24,12 @@ resume.add_page()
 resume.set_margin(1.27)
 # Header
 def headerInfo(header):
-    header.cell(130, 1, "Wanjin P. Maglangit")
+    header.font('Times', 'UB', 3)
+    header.cell(13, 1, "Wanjin P. Maglangit", ln = True)
+    header.font('Times', 'I', 2)
+    header.cell(100, 1, "Full Stack Developer", ln = True)
+
+
 # Personal info
 
 # Summary
